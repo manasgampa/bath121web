@@ -12,7 +12,7 @@ public class CookieEx2 extends HttpServlet{
 	
 	public void service(HttpServletRequest request, HttpServletResponse response) throws IOException {
 		
-		
+		//this is my code
 		PrintWriter out=response.getWriter();
 		Cookie ck[]=request.getCookies();
 		
